@@ -8,7 +8,7 @@ int main () {
 		for(int space=1;space<=n-i;space++){
 		cout<<"  ";
 		}
-		// star
+		
 		for(int star=1;star<=i;star++){
 			cout<<"* ";
 		}

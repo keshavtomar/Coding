@@ -2,11 +2,11 @@
 #include <algorithm>
 
 using namespace std;
-int main(void)
+int main()
 {
-    int t;
-    cin >> t;
-    while (t--)
+    int test;
+    cin >> test;
+    for(int i=0;i<test;i++){
     {
         int n;
         cin >> n;
@@ -45,4 +45,6 @@ int main(void)
 
         cout << max(maximum, (totalsum - minimum)) << endl;
     }
+    }
+    return 0;
 }

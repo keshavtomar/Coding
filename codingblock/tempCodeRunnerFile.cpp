@@ -1,4 +1,4 @@
- // for (int j = 0; j < n; j++)
+for (int i = 0; i < 2*n; i++)
     // {
-    //     cout<<maximum[j]<<"  ";
+    //     cout<<arr[i];
     // }

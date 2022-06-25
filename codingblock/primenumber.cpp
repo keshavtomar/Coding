@@ -12,7 +12,10 @@ int c=2;
         cout<<c<<" ";
         number/=c;
         }
-        else c++;
-    }
+        else 
+        {
+            c++;
+        }
+        }
     return 0;
 }

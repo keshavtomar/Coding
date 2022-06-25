@@ -1,28 +1,37 @@
-#include<iostream>
-#include<algorithm>
+#include <iostream>
+#include <algorithm>
+
 using namespace std;
-int main()
+
+int main(void)
 {
-    int n, i, j, temp;
-    cin>>n;
-    int arr[n];
-    int initial_array[n];
-    int initial_position[n];
-    for(i=0; i<=n-1; i++){
-        cin>>arr[i];
-        initial_array[i]=arr[i];
-       const int initial_position[i]={i};
-    }
-    sort(arr,arr+n);
+    int n;
+    cin >> n;
+    int a[n];
     for (int i = 0; i < n; i++)
     {
-      cout<<arr[i]<<" "<<i<<"   ";
+        cin >> a[i];
     }
-    cout<<endl;
-     for (int i = 0; i < n; i++)
+    int count = 0;
+    for (int j = 0; j < n; j++)
     {
-      cout<<initial_array[i]<<" ";
-      cout<<initial_position[i]<<"   ";
+        int smallest = a[j];
+        int index = j;
+        for (int i = j + 1; i < n; i++)
+        {
+            if (a[i] < smallest)
+            {
+                smallest = a[i];
+                index = i;
+            }
+        }
+        if (index != j)
+        {
+            int temp = a[j];
+            a[j] = a[index];
+            a[index] = temp;
+            count++;
+        }
     }
-    return 0;
+    cout << count << endl;
 }

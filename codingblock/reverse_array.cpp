@@ -8,15 +8,9 @@ int main() {
 		cin>>arr[i];
 	}
 	for(int j=n-1;j>=0;j--){
-		if (arr[0]==0)
-		{
-			cout<<arr[0];
-			continue;
-		}
-		else{
 		cout<<arr[j];
 		cout<<endl;
-		}
+		
 	}
 
 	return 0;

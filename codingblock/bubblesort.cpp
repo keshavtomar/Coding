@@ -2,7 +2,8 @@
 using namespace std;
 int main()
 {
-    int n, i, j, temp,count=1;
+    int n, i, j, temp;
+    // int count=1;
     cin>>n;
     int arr[n];
     for(i=0; i<=n-1; i++)
@@ -16,7 +17,7 @@ int main()
                 temp = arr[j];
                 arr[j] = arr[j+1];
                 arr[j+1]= temp;
-                count++;
+                // count++;
             }
         }
     }

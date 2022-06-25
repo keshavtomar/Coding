@@ -25,12 +25,10 @@ int main()
     }
     if (x<y)
     {
-    cout<<x<<endl;
-    cout<<y<<endl;
+    cout<<x<<" "<<y;
     }
     else{
-    cout<<y<<endl;
-    cout<<x<<endl;
+    cout<<y<<" "<<x;
     }
     
    

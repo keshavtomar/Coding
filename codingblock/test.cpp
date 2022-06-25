@@ -7,7 +7,7 @@ int main()
     cin>>n;
     while (n!=0)
     {
-        unit=n%10;
+        unit=n%10;//2
         if (unit==0)
         {
             unit=5;

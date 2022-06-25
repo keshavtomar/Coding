@@ -37,7 +37,7 @@ int main() {
             }
         }
     }
-    cout<<"Deepak should buy roses whose prices are "<<temp1<<" and "<<temp2;
+    cout<<"Deepak should buy roses whose prices are "<<temp1<<" and "<<temp2<<"."<<endl;
     }
     return 0;
 }

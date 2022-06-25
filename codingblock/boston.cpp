@@ -27,7 +27,6 @@ int main()
         number/=c;
         }
         else c++;
-        
     }
     // cout<<"Value of sum of prime factor is "<<pfsum<<endl;
     if (pfsum==sum)

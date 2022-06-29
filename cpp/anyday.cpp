@@ -1,4 +1,5 @@
 #include<iostream>
+#include <string.h>
 using namespace std;
 int day_of_week(int y, int m, int d)
 {
@@ -6,8 +7,15 @@ int day_of_week(int y, int m, int d)
   y -= m < 3;
   return (y + y/4 - y/100 + y/400 + t[m-1] + d) % 7;
 }
+
 int main(){
-    int y,m,d;
+cout<<"Type your name: "<<endl;
+string ch;
+cin>>ch;
+cout<<"Hello! "<<ch<<" nice to see you here\n";
+while (ch!="Exit")
+{
+  int y,m,d;
     cout<<"Enter the date(1-31): ";
     cin>>d;
     cout<<"Enter the month(1-12): ";
@@ -30,5 +38,9 @@ int main(){
         case 6: cout<<"\nSaturday\n";
         break;
     }
+    cout<<"Type Exit to close the application or press any key to continue"<<endl;
+    cin>>ch;
+}
+
     return 0;
 }

@@ -6,12 +6,15 @@ int update(int b){
     return b;
 }
 int main()
-{   int b;
+{
     int a;
     cin>>a;
-    cout<<"value of a is:"<<a<<endl;
-    update(a);
+    cout<<"value of a is:"<<" "<<a<<endl;
+     int *b=&a;
+    // update(a);
+    cout<<*(&a)<<endl;
     cout<<a<<endl;
-    cout<<a<<endl;
+    cout<<*b<<endl;
+    cout<<&b<<endl;
     return 0;
 }

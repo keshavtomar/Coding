@@ -5,7 +5,7 @@ int factorial(int n){
     {
         n=n*i;
     }
-    return n;
+    return n;      
 }
 int main()
 {

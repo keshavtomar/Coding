@@ -1,0 +1,205 @@
+body{
+    margin:0px ;
+    background-color: lightcyan;
+}
+
+#navigationbar:hover{
+    background-position: right top;
+   
+}
+#navigationbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to left, rgb(133, 207, 212) 50%, rgb(223, 249, 253) 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all .5s ease-in-out;
+    height:5%
+}
+    
+
+#navigationbar a{
+    text-decoration: none;
+    padding-inline: 30px;
+    color: rgb(129, 115, 115);
+   
+}
+#navigationbar a:hover{
+    color: rgb(54, 197, 145);
+    text-decoration: solid;
+    font-size: 20px;
+}
+#firstimage img{
+  margin-top: 250px;
+  position: relative;
+  left: 200px;
+  height: 300px;
+  width: 300px;
+  border-radius: 200px;
+  /* border: 2px solid red; */
+}
+#secondimage img{
+    margin-top: 150px;
+    position: relative;
+    left: 850px;
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+}
+#thirdimage img{
+    margin-top: 150px;
+    position: relative;
+    left: 200px;
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+}
+.online{
+    display: inline-block;
+    position: relative;
+    left: 500px;
+    bottom: 250px;
+    margin-left: 40px;
+    /* border: 2px solid red; */
+    /* background-color: red; */
+}
+#online h1{
+    display: inline-block;
+   position: relative;
+   text-decoration-line: underline;
+   color: rgb(24, 163, 119);
+   width: 300px;
+   /* border: 2px solid red; */
+}
+#title{
+    position: relative;
+    /* bottom: 400px; */
+    font-size: 40px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #37c8d0;
+    background-color: rgba(127, 255, 212, 0.025);
+    /* border: 2px solid red; */
+  
+}
+.background{
+    display: inline-block;
+    position: relative;
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 100%;
+}
+#skilldiv{
+    position: relative;
+    left: 200px;
+    bottom: 280px;
+}
+#skilldiv h1{
+   color: rgb(24, 163, 119);
+   display: inline-block;
+   position: relative;
+   text-decoration-line: underline;
+   width: 300px;
+}
+#paper h1{
+   color: rgb(24, 163, 119);
+   display: inline-block;
+   position: relative;
+   text-decoration-line: underline;
+   width: 300px;    
+}
+.paper{
+    display: inline-block;
+    position: relative;
+    left: 500px;
+    bottom: 250px;
+    margin-left: 40px;
+}
+#form{
+    border: 2px solid rgba(192, 108, 108, 0.137);
+    width: 50%;
+    margin-top: 30px;
+    padding-left: 60px;
+    border-radius: 15px;
+    
+}
+#loginform{
+    border: 2px solid rgba(192, 108, 108, 0.137);
+    width: 150%;
+     margin-top: 30px;
+    padding-left: 60px;
+    border-radius: 15px;
+}
+ #login{
+    background-color: #abd1d3;
+    position: relative;
+    left: 122px;border-radius: 6px;
+ }
+ #login:hover{
+    background-color: rgb(115, 170, 192);
+    cursor: pointer;
+    border-radius: 7px;
+ }
+ #emaillogin{
+    position: relative;
+    margin-bottom: 10px;
+    margin-top:10px ;
+    background-color: #e6eddd;
+    border-radius: 5px;
+    border: 1px solid rgb(20, 158, 31);
+ }
+ #passwordlogin{
+    position: relative;
+    margin-bottom: 10px;
+    margin-top:10px ;
+    background-color: #e6eddd;
+    border-radius: 5px;
+    border: 1px solid rgb(27, 134, 48);
+ }
+#name{
+    margin-bottom: 10px;
+    
+}
+#adress{
+    margin-bottom: 10px;
+}
+#email{
+    margin-bottom: 10px;
+}
+#dob{
+    margin-bottom: 10px;
+}
+#age{
+    margin-bottom: 10px;
+}
+#gender{
+    margin-bottom: 10px;
+}
+#submit{
+    background-color: #abd1d3;
+    border-radius: 6px;
+}
+#reset{
+    background-color: #abd1d3;
+    border-radius: 6px;
+}
+#password{
+    margin-bottom: 10px;
+}
+#submit:hover{
+    background-color: rgb(115, 170, 192);
+    cursor: pointer;
+    border-radius: 7px;
+}
+#reset:hover{
+    background-color: rgb(115, 170, 192);
+    cursor: pointer;
+    border-radius: 7px;
+}
+@keyframes textcolor{
+    from{color: black;}
+    to{color: white;}
+}
